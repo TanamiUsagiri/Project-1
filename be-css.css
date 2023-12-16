@@ -94,3 +94,11 @@ body{
 .wrapper .signup p a:hover{
     text-decoration: underline;
 }
+.wrapper .login p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.wrapper .login p a:hover{
+    text-decoration: underline;
+}

@@ -1,9 +1,10 @@
 <?php
+    session_start();
     $servername = "localhost";
     $username = "root";
     $password = "";
     $dbname = "websitelogin";
-    $conn_npt = new mysqli("$servername","$username","$password","$dbname");
+    $conn_npt = mysqli_connect("$servername","$username","$password","$dbname");
 /*    if($conn_npt->errno){
         echo "Lỗi kết nối, ". $conn_npt->error;
     }else{
